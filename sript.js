@@ -9,3 +9,20 @@ const Modal = {
         
     }
 }
+
+const transactions = [{},{},{}]
+
+
+const Transaction = {
+    incomes(){
+
+    },
+
+    expenses(){
+
+    },
+
+    total(){
+
+    }
+}
