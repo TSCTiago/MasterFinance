@@ -127,7 +127,9 @@ const Utils = {
 }
 
 const form = {
-    
+    submit(event){
+        event.preventDefault()
+    }
 }
 
 const App = {
