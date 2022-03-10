@@ -40,7 +40,10 @@ const Transaction = {
                 income += transaction.amount;
             }
         })
+        
         return  income;
+
+       
     },
 
     expenses() {
@@ -50,11 +53,13 @@ const Transaction = {
                 expense += transaction.amount;
             }
         })
+        
         return expense;
     },
 
     total() {
         return Transaction.incomes() + Transaction.expenses();
+        
     }
 }
 
@@ -94,6 +99,7 @@ const DOM = {
         document
             .getElementById('totalDisplay')
             .innerHTML =  Utils.formatCurrency(Transaction.total())
+        
     },
 
     clearTransactions(){
