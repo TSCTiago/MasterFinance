@@ -93,7 +93,7 @@ header{
     color: white;
     font-size: 25px;
     font-weight: bolder;
-    
+
     
 }
 
@@ -114,12 +114,14 @@ header{
 }
 
 .card{
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
     margin-bottom: 2rem;
     color: #363f5f;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.38);
 }
 
 .card h3{
