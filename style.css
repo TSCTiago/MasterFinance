@@ -195,6 +195,7 @@ td.expense{
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.2s ease-in-out;
 }
 .modal-overlay.active{
     opacity: 1;
@@ -203,6 +204,7 @@ td.expense{
 .modal{
     background: #F0F2f5;
     padding: 2.4rem;
+    border-radius: 0.25rem;
 }
 
 #form{
