@@ -227,7 +227,8 @@ input{
 }
 
 .input-group .help{
-    opacity: 0.5;
+    opacity: 0.9;
+    font-weight: bolder;
 }
 
 .input-group.actions{
