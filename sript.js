@@ -100,6 +100,14 @@ const DOM = {
         document
             .getElementById('totalDisplay')
             .innerHTML =  Utils.formatCurrency(Transaction.total())
+        if (Transaction.incomes() + Transaction.expenses() == 0){
+            document.getElementById('card-total').style.backgroundColor = '#49aa26';
+        }
+        else if ( Transaction.incomes() + Transaction.expenses() > 0){
+            document.getElementById('card-total').style.backgroundColor = 'blue';}
+        else if (Transaction.incomes() + Transaction.expenses() < 0){
+            document.getElementById('card-total').style.backgroundColor = 'red';
+        }
         
     },
 
